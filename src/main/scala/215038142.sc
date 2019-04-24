@@ -107,25 +107,24 @@ assert("Normal weight" == normal, "Expected Normal weight, Got" +normal)
 //print("this is equal to b")
 
 
-//////10 create a list
-//var s=""
-//val v = List(1,5,7,8)
+////// question 10 create a list
+var s=""
+val v = List(1,5,7,8)
+
+ v.foreach(print(_))
 //
-// v.foreach(s=>s*7)
-//
 
 
-/////11 repeat
+///// question 11 repeat
 
-//var s=""
-//val v=List(1,5,7,8)
-//v.foreach(s=>s*7)
+val v11=List(1,5,7,8)
+v11.foreach(print(_))
 
 ////////  15
 
-var s=""
+
 val words =List("word","cat","animal")
-words.foreach(println(_))
+words.foreach(println)
 
 /////////14
 
